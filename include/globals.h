@@ -11,4 +11,4 @@ extern int option_help;      // -h
 extern int option_backup; // -b
 extern struct option long_options[];
 
-#endif // GLOBALS_H
+#endif 
