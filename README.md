@@ -1,4 +1,4 @@
-# mv_command: Custom `mv` Command Implementation in C
+# Move Command Implementation in C
 
 ##  Introduction
 This project is a **C-based implementation** of the `mv` (move) command.  
