@@ -3,15 +3,18 @@
 ##  Introduction
 This project is a **C-based implementation** of the `mv` (move) command.  
 It was developed as part of the **System-Oriented Programming Portfolio Assignment 05**  
-and demonstrates various skills in **C programming**, including:
-- **File system interaction**
-- **Dynamic memory management**
-- **Error handling**
-- **Multithreading (optional)**
+and demonstrates various skills in **C programming**, including interaction with the Linux filesystem, dynamic memory management, and multithreading.
 
 ---
-
 ## Features
+
+-Filesystem Interaction: Recursively traverses directories to display their structure.
+-Command-line Options: Supports flags to customize output (e.g., -L to limit depth).
+-Dynamic Data Structures: Uses linked lists and trees to manage directory entries.
+-Concurrency: Implements multithreading to traverse multiple directories simultaneously and build tree structure for json and csv format.
+-Pipeline Support: Integrates with Linux pipelines via stdin and stdout.
+-Thread Safety: Ensures safe access to shared resources using mutexes.
+
 **File and Directory Operations**  
    - Move **single** or **multiple** files and directories.  
    - Overwrite existing files based on user preferences.  
