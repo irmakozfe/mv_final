@@ -1,9 +1,7 @@
 # Move Command Implementation in C
 
 ##  Introduction
-This project is a **C-based implementation** of the `mv` (move) command.  
-It was developed as part of the **System-Oriented Programming Portfolio Assignment 05**  
-and demonstrates various skills in **C programming**, including interaction with the Linux filesystem, dynamic memory management, and multithreading.
+This project is a **C-based implementation** of the `mv` (move) command. It is developed as part of the **System-Oriented Programming Portfolio Assignment 05** and demonstrates various skills in **C programming**, including interaction with the Linux filesystem, dynamic memory management, and multithreading.
 
 ---
 ## Features
