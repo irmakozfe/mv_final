@@ -5,13 +5,12 @@ This project is a **C-based implementation** of the `mv` (move) command. It is d
 
 ---
 ## Features
-
--Filesystem Interaction: Recursively traverses directories to display their structure.
--Command-line Options: Supports flags to customize output (e.g., -L to limit depth).
--Dynamic Data Structures: Uses linked lists and trees to manage directory entries.
--Concurrency: Implements multithreading to traverse multiple directories simultaneously and build tree structure for json and csv format.
--Pipeline Support: Integrates with Linux pipelines via stdin and stdout.
--Thread Safety: Ensures safe access to shared resources using mutexes.
+   - Filesystem Interaction: Recursively traverses directories to display their structure.
+   - Command-line Options: Supports flags to customize output (e.g., -L to limit depth).
+   - Dynamic Data Structures: Uses linked lists and trees to manage directory entries.
+   - Concurrency: Implements multithreading to traverse multiple directories simultaneously and build tree structure for json and csv format.
+   - Pipeline Support: Integrates with Linux pipelines via stdin and stdout.
+   - Thread Safety: Ensures safe access to shared resources using mutexes.
 
 **File and Directory Operations**  
    - Move **single** or **multiple** files and directories.  
