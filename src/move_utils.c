@@ -4,6 +4,11 @@
 #include <unistd.h>
 #include <string.h>
 
+void print_help() {
+    printf("usage: ./mv [-f | -i | -n] [-hv] source target\n");
+    printf("\t./mv [-f | -i | -n] [-v] source ... directory\n\n");
+}
+
 int mvRenameFile(const char *source_file, const char *new_name) {
 
 
@@ -60,7 +65,7 @@ int mvRenameDir(const char *source_dir, const char *new_name) {
         }
         return 0;
     } else {
-        perror("Error renaming directory");
+        print_help();
         return -1;
     }
 }
@@ -95,7 +100,7 @@ int mvMoveFileToDir(const char *source, const char *destination_dir) {
         }
         return 0;
     } else {
-        perror("Error moving file");
+        print_help();
         return 1;
     }
 }
