@@ -154,6 +154,18 @@ Examples:
 
 ---
 
+##Pipeline Integration
+- **Move all .txt files from a directory using find:**
+ ```bash
+ find /source_dir -type f -name "*.txt" | ./mv /destination_dir
+  ```
+- **Move a file using echo (for single file moves):**
+```bash
+echo "text5.txt" | ./mv dir
+  ```
+
+
+
 ## Contributors
 - [Buse Okcu](https://github.com/bussyyr)
 - [Irmak Damla Özdemir](https://github.com/irmakozfe)
