@@ -161,7 +161,7 @@ Examples:
   ```
 - **Move a file using echo (for single file moves):**
 ```bash
-echo "text5.txt" | ./mv dir
+echo "file2.txt" | ./mv dir
   ```
 
 
