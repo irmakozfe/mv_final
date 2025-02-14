@@ -154,7 +154,7 @@ Examples:
 
 ---
 
-##Pipeline Integration
+## Pipeline Integration
 - **Move all .txt files from a directory using find:**
  ```bash
  find /source_dir -type f -name "*.txt" | ./mv /destination_dir
