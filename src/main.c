@@ -49,12 +49,6 @@ void process_stdin_to_linked_list(Node **head) {
     }
 }
 
-
-void print_help() {
-    printf("usage: ./mv [-f | -i | -n] [-hv] source target\n");
-    printf("\t./mv [-f | -i | -n] [-v] source ... directory\n\n");
-}
-
 void parse_flags(int argc, char *argv[], int *non_flag_index) {
     int opt;
     while ((opt = getopt_long(argc, argv, "finvhb", long_options, NULL)) != -1) {
